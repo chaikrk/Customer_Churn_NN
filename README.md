@@ -8,10 +8,8 @@
     <li><strong>Data Cleaning:</strong> Handling missing values and dropping irrelevant columns ('customerID').</li>
     <li><strong>Feature Engineering:</strong> Converting categorical features into numerical representations using one-hot encoding.</li>
     <li><strong>Data Balancing:</strong> Addressing class imbalance by undersampling the majority class.</li>
-    <li><strong>Data Splitting:</strong> Dividing the data into training and testing sets for model development and evaluation.</li>
     <li><strong>Feature Scaling:</strong> Standardizing numerical features using <code>StandardScaler</code> to improve model performance.</li>
     <li><strong>Deep Learning Model:</strong> Building a sequential neural network with Dense layers, Dropout, and L2 regularization using TensorFlow/Keras.</li>
-    <li><strong>Model Compilation:</strong> Configuring the model with an Adam optimizer, binary cross-entropy loss, and accuracy metric.</li>
     <li><strong>Early Stopping:</strong> Using an EarlyStopping callback to prevent overfitting during training.</li>
     <li><strong>Hyperparameter Tuning:</strong> Employing Keras Tuner (RandomSearch) to find optimal hyperparameters for the model architecture and regularization.</li>
     <li><strong>Model Evaluation:</strong> Assessing the model's performance using accuracy and a classification report on the test set.</li>
